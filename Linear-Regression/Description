@@ -1,0 +1,4 @@
+Linear Regression (With and Without Library)
+
+This repo includes two implementations of Linear Regression in Python: one from scratch, demonstrating the mathematical foundation of the algorithm without any external libraries, 
+and one using the sklearn library for efficient model training, prediction, and evaluation. Both approaches offer insights into how Linear Regression works.
