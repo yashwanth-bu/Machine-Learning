@@ -1,0 +1,23 @@
+Polynomial Regression using scikit-learn
+  
+Polynomial regression is an extension of simple linear regression that models the relationship between the independent variable x and the dependent variable y as an nth-degree polynomial. 
+It’s used when the data points exhibit a curvilinear trend rather than a straight line, offering more flexibility compared to linear regression.
+
+In this implementation, the polynomial regression model is built using the scikit-learn library in Python, which provides tools for data analysis and machine learning. 
+Here’s a basic description of how the polynomial regression process works with the help of scikit-learn:
+
+Data Preparation:
+The input data typically consists of a single feature (independent variable x) and the corresponding target values (dependent variable y).
+  
+Transforming the Data:
+Polynomial features are created using PolynomialFeatures from sklearn.preprocessing. This step converts the original input data into higher-degree polynomial terms. For example,
+if the degree is 2, the transformed features will include 𝑥**2 in addition to x.
+  
+Fitting the Model:
+Once the features are transformed, a linear regression model is fitted to the new polynomial features using LinearRegression from sklearn.linear_model.
+  
+Prediction:
+The model can then predict values for the dependent variable y based on new input data.
+  
+Visualization (Optional):
+Typically, you may want to visualize the model’s fit to the data by plotting the original data points along with the polynomial regression curve.
