@@ -1,0 +1,16 @@
+Lasso, Ridge, and Elastic Net Regression (With and Without Library)
+  
+This repo includes three implementations of regression models in Python: Lasso, Ridge, and Elastic Net. Each model is demonstrated both from scratch, 
+showcasing the mathematical foundation of these regularized regression techniques, and using the sklearn library for efficient model training, prediction, and evaluation.
+
+Lasso Regression (L1 Regularization): Demonstrates the implementation of Lasso regression, 
+which applies L1 regularization to the linear regression model, encouraging sparse solutions by driving some of the coefficients to zero.
+
+Ridge Regression (L2 Regularization): Implements Ridge regression, which adds L2 regularization to the model, 
+preventing overfitting by shrinking the coefficients, but unlike Lasso, it does not set any coefficients exactly to zero.
+
+Elastic Net Regression: Combines both L1 and L2 regularization, incorporating both Lasso and Ridge techniques.
+This method is useful when there are multiple features correlated with each other.
+
+The repo offers insights into the underlying math of these models and how they can be implemented efficiently with libraries like sklearn, 
+providing a practical comparison between custom implementation and optimized library usage.
